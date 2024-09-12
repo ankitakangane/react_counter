@@ -25,6 +25,11 @@
 .card_text{
   text-align: justify;
   padding:5px 10px;
+ 
+}
+
+.card_price_container{
+  display: flex;
 }
 
 .card_price{
@@ -33,6 +38,23 @@
   margin:0;
   margin-left: 20px;
   margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.card_total{
+  font-size: 18px;
+  padding:0;
+  margin:0;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.card_error{
+  color:tomato;
+  padding:0;
+  margin:0;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .card_quantity_container{
@@ -58,6 +80,8 @@
   display: block;
   margin:5px auto;
   cursor: pointer;
+  margin-top: 15px;
+  font-size: 18px;
 
 }
 .card_butn:hover{
